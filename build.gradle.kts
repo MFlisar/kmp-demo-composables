@@ -43,15 +43,3 @@ tasks.register("buildDocs") {
         println("Docs have been build!")
     }
 }
-
-tasks.register("createNewModule") {
-    val dir = rootDir
-    doLast {
-        com.michaelflisar.kmpgradletools.scripts.createNewModule(
-            rootDir = dir,
-            folder = "library/modules",
-            baseFeatureName = "ui",
-            newFeatureName = "app"
-        )
-    }
-}

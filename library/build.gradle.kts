@@ -29,7 +29,7 @@ val buildTargets = Targets(
     iOS = true,
     // desktop
     windows = true,
-    macOS = false, // because of compose unstyled dialogs
+    macOS = true,
     // web
     wasm = true
 )
@@ -37,10 +37,6 @@ val buildTargets = Targets(
 // -------------------
 // Setup
 // -------------------
-
-dependencies {
-    coreLibraryDesugaring(libs.desugar)
-}
 
 kotlin {
 
