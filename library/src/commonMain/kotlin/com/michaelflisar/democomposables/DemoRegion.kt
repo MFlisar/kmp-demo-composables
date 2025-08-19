@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun DemoDialogRegion(title: String) {
+fun DemoRegion(title: String) {
     Text(
         modifier = Modifier.padding(all = 4.dp),
         text = title,

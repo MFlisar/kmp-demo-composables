@@ -15,21 +15,21 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
-import com.michaelflisar.composedialogs.core.DialogStateNoData
 
 @Composable
-fun RowScope.DemoDialogButton(
-    state: DialogStateNoData,
+fun RowScope.DemoButton(
     icon: ImageVector,
     label: String,
-    description: String
+    description: String,
+    onClick: () -> Unit,
 ) {
     ElevatedCard(
         modifier = Modifier.weight(1f)
     ) {
-        Row(modifier = Modifier
+        Row(
+            modifier = Modifier
             .fillMaxWidth()
-            .clickable { state.show() }
+            .clickable { onClick() }
             .padding(all = 16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {

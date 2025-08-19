@@ -54,9 +54,6 @@ kotlin {
 
         commonMain.dependencies {
 
-            // resources
-            implementation(compose.components.resources)
-
             // Compose + AndroidX
             implementation(libs.compose.material3)
             implementation(libs.compose.material.icons.core)
