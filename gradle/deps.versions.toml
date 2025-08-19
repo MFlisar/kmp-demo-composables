@@ -17,7 +17,3 @@ kmp-gradle-tools-build-gradle-plugin =          { id = "io.github.mflisar.kmp-gr
 # ---------
 
 [libraries]
-
-# mflisar
-kmp-gradle-tools-scripts =                      { module = "io.github.mflisar.kmp-gradle-tools:scripts",                            version.ref = "kmp-gradle-tools" }
-kmp-gradle-tools-docs =                         { module = "io.github.mflisar.kmp-gradle-tools:docs",                               version.ref = "kmp-gradle-tools" }

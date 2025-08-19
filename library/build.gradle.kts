@@ -40,9 +40,11 @@ val buildTargets = Targets(
 
 kotlin {
 
-    compilerOptions {
-        freeCompilerArgs.add("-Xexpect-actual-classes")
-    }
+    //-------------
+    // Targets
+    //-------------
+
+    buildFilePlugin.setupTargetsLibrary(buildTargets)
 
     // -------
     // Sources
