@@ -1,7 +1,3 @@
-You can find the documentation here:
-
-[Documentation](https://mflisar.github.io/kmp-demo-composables/)
-
 ## :memo: Note
 
 > [!NOTE]  

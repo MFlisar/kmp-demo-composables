@@ -1,7 +1,7 @@
 [versions]
 
 # mflisar
-kmp-gradle-tools =              "1.5.0" # attention: the version for the settings plugin must be adjusted manually!
+kmp-gradle-tools =              "1.5.0"
 
 # ---------
 # plugins
