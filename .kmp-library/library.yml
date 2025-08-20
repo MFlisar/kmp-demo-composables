@@ -31,4 +31,4 @@ library:
 
 maven:
   group-id: io.github.mflisar.democomposables
-  primary-artifact-id: core # used to detect latest release version of the library (dynamically on the published homepage)
+  primary-artifact-id: library # used to detect latest release version of the library (dynamically on the published homepage)

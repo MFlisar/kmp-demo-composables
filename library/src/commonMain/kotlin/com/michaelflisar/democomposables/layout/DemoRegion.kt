@@ -1,4 +1,4 @@
-package com.michaelflisar.democomposables
+package com.michaelflisar.democomposables.layout
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme

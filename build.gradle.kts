@@ -13,6 +13,6 @@ plugins {
     alias(libs.plugins.kotlin.serialization) apply false
     alias(libs.plugins.dokka) apply false
     alias(libs.plugins.gradle.maven.publish.plugin) apply false
-    alias(deps.plugins.kmp.gradle.tools.build.gradle.plugin) apply false
+    alias(deps.plugins.kmplibrary.buildplugin) apply false
     alias(libs.plugins.launch4j) apply false
 }
