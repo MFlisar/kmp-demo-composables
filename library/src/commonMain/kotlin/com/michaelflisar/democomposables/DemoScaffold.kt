@@ -21,20 +21,22 @@ import kotlinx.coroutines.launch
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DemoScaffold(
-    appName: String,
+    appName: String? = null,
     content: @Composable (modifier: Modifier, showInfo: (info: String) -> Unit) -> Unit
 ) {
     MaterialTheme {
         val snackbarHostState = remember { SnackbarHostState() }
         Scaffold(
             topBar = {
-                TopAppBar(
-                    title = { Text(appName) },
-                    colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = MaterialTheme.colorScheme.primary,
-                        titleContentColor = MaterialTheme.colorScheme.onPrimary
+                if (appName != null) {
+                    TopAppBar(
+                        title = { Text(appName) },
+                        colors = TopAppBarDefaults.topAppBarColors(
+                            containerColor = MaterialTheme.colorScheme.primary,
+                            titleContentColor = MaterialTheme.colorScheme.onPrimary
+                        )
                     )
-                )
+                }
             },
             snackbarHost = {
                 SnackbarHost(snackbarHostState)
