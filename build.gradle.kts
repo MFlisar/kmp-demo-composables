@@ -14,5 +14,21 @@ plugins {
     alias(libs.plugins.dokka) apply false
     alias(libs.plugins.gradle.maven.publish.plugin) apply false
     alias(deps.plugins.kmplibrary.buildplugin) apply false
-    alias(libs.plugins.launch4j) apply false
 }
+
+// ------------------------
+// Build mkdocs
+// ------------------------
+
+buildscript {
+    dependencies {
+        classpath(deps.kmplibrary.docs)
+    }
+}
+
+com.michaelflisar.kmplibrary.docs.registerBuildDocsTasks(
+    tasks = tasks,
+    project = project,
+    relativeModulesPath = "library",
+    relativeDemosPath = "demo"
+)
