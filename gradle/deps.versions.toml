@@ -17,3 +17,6 @@ kmplibrary-buildplugin =            { id = "io.github.mflisar.kmp-library.plugin
 # ---------
 
 [libraries]
+
+# mflisar
+kmplibrary-docs =                   { module = "io.github.mflisar.kmp-library:docs",                        version.ref = "kmp-library" }
