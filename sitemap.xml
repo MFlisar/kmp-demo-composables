@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mflisar.github.io/kmp-demo-composables/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mflisar.github.io/kmp-demo-composables/dependencies/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mflisar.github.io/kmp-demo-composables/me/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mflisar.github.io/kmp-demo-composables/other-libraries/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mflisar.github.io/kmp-demo-composables/setup/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mflisar.github.io/kmp-demo-composables/usage/</loc>
+         <lastmod>2025-08-22</lastmod>
+    </url>
+</urlset>
